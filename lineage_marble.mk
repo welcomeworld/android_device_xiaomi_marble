@@ -26,3 +26,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # sign file
 PRODUCT_DEFAULT_DEV_CERTIFICATE := device/xiaomi/marble/security/releasekey
+PRODUCT_MAINLINE_BLUETOOTH_SEPOLICY_DEV_CERTIFICATES := device/xiaomi/marble/security
