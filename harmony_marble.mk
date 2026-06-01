@@ -7,13 +7,13 @@
 # Inherit from marble device
 $(call inherit-product, device/xiaomi/marble/device.mk)
 
-# Inherit from common lineage configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from common harmony configuration
+$(call inherit-product, vendor/harmony/config/common_full_phone.mk)
 
 # include MindTheGapps
 $(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
 
-PRODUCT_NAME := lineage_marble
+PRODUCT_NAME := harmony_marble
 PRODUCT_DEVICE := marble
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
